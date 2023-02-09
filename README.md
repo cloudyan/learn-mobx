@@ -25,3 +25,13 @@ pnpm i mobx mobx-react
 
 ## 练习场景
 
+## 文档
+
+官方文档
+
+- [理解响应式](https://mobx.js.org/understanding-reactivity.html)
+- mobx core
+  - [observable state](https://mobx.js.org/observable-state.html)
+  - [actions](https://mobx.js.org/actions.html)
+  - [computeds](https://mobx.js.org/computeds.html)
+  - [reactions](https://mobx.js.org/reactions.html)

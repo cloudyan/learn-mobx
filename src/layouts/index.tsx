@@ -17,6 +17,12 @@ export default function Layout() {
         <li>
           <Link to="/mobx-editor">mobx-editor</Link>
         </li>
+        <li>
+          <Link to="/message">message</Link>
+        </li>
+        <li>
+          <Link to="/trace">trace</Link>
+        </li>
         {/* <li>
           <Link to="/lowcode">lowcode</Link>
         </li>
