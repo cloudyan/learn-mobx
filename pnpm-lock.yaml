@@ -6,6 +6,7 @@ specifiers:
   mobx: ^6.7.0
   mobx-react: ^7.6.0
   mobx-react-lite: ^3.4.0
+  mobx-utils: ^6.0.5
   react: ^18.2.0
   typescript: ^4.1.2
   umi: ^4.0.50
@@ -14,6 +15,7 @@ dependencies:
   mobx: 6.7.0
   mobx-react: 7.6.0_mobx@6.7.0+react@18.2.0
   mobx-react-lite: 3.4.0_mobx@6.7.0+react@18.2.0
+  mobx-utils: 6.0.5_mobx@6.7.0
   react: 18.2.0
   umi: 4.0.50_33hk2gteq5gebkweu7qye4srri
 
@@ -4820,6 +4822,14 @@ packages:
       mobx: 6.7.0
       mobx-react-lite: 3.4.0_mobx@6.7.0+react@18.2.0
       react: 18.2.0
+    dev: false
+
+  /mobx-utils/6.0.5_mobx@6.7.0:
+    resolution: {integrity: sha512-QOduwicYedD4mwYZRl8+c3BalljFDcubg+PUGqBkn8tOuBoj2q7GhjXBP6JXM9J+Zh+2mePK8IoToeLfqr3Z/w==}
+    peerDependencies:
+      mobx: ^6.0.0
+    dependencies:
+      mobx: 6.7.0
     dev: false
 
   /mobx/6.7.0:

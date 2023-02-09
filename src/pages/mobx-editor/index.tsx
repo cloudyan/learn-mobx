@@ -1,34 +1,23 @@
-import React, {useState, useEffect} from 'react'
+import React, {createElement, useState, useEffect} from 'react'
+import { createRoot } from 'react-dom/client';
 import { observer } from 'mobx-react'
-import editorConfig from './config'
+import {
+  config,
+  init,
+} from './core'
+import './index.less'
+import './plugin'
 
-// 一个简单的编辑器实例
-// 修改编辑器配置，界面自动更新
+// 实现一个低代码工作台界面
+// 支持常见的扩展位，并通过配置管理
 
-editorConfig.set('id', 5)
-
-const MobxEditor = observer((props) => {
-  const [inputValue, setInput] = useState('')
-
-  const onChangeInput = (e) => {
-    setInput(e.target.value.trim())
-  }
-
-  const changeConfig = () => {
-    console.log(+new Date())
-    let id = editorConfig.get('id')
-    editorConfig.set('id', id+1)
-  }
-
-  const editorId = editorConfig.get('id')
-  return <>
-    <h2>编辑</h2>
-    <input value={inputValue} onChange={onChangeInput} />
-    <div>
-      <div>{editorId}</div>
-      <button onClick={changeConfig}>更新编辑器 ID</button>
-    </div>
-  </>
+config.setConfig({
+  'device': 'mobile',
+  'id': 5,
 })
 
-export default MobxEditor
+init();
+
+export default () => {
+  return <>loading</>
+}

@@ -25,6 +25,13 @@ pnpm i mobx mobx-react
 
 ## 练习场景
 
+- mobx-only
+- mobx-react
+- mobx-editor
+- message
+- trace
+- computed-fn
+
 ## 文档
 
 官方文档
@@ -35,3 +42,4 @@ pnpm i mobx mobx-react
   - [actions](https://mobx.js.org/actions.html)
   - [computeds](https://mobx.js.org/computeds.html)
   - [reactions](https://mobx.js.org/reactions.html)
+- [核心 API](https://mobx.js.org/api.html)
