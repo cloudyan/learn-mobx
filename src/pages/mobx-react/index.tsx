@@ -10,12 +10,12 @@ export default class MobXReact extends React.Component<{}, {}> {
   public render() {
     return (
       <>
-        <ToDoListDemoGlobalInstance/>
+        {/* <ToDoListDemoGlobalInstance/> */}
         {/* <ToDoListDemoByProps toDoList={toDoList}/> */}
         {/* <todoContext.Provider value={toDoList}>
           <ToDoListDemoByContext/>
         </todoContext.Provider> */}
-        {/* <ToDoListFuncDemoLocalInstance/> */}
+        <ToDoListFuncDemoLocalInstance/>
         {/* <ToDoListClassDemoLocalInstance/> */}
         {/* <LocalObservableDemo/> */}
         {/* <UseLocalObservableDemo/> */}
@@ -66,6 +66,11 @@ export default class MobXReact extends React.Component<{}, {}> {
 //     this.todos.push(todo)
 //   }
 // }
+//
+// 还有函数式组件
+// const SimpleLogo = observer(() => {
+//   return <>123 logo</>
+// })
 
 const ToDoListDemoGlobalInstance = observer(
   class extends React.Component<{}, {}> {

@@ -14,6 +14,9 @@ export default function Layout() {
         <li>
           <Link to="/mobx-react">mobx-react</Link>
         </li>
+        <li>
+          <Link to="/mobx-editor">mobx-editor</Link>
+        </li>
         {/* <li>
           <Link to="/lowcode">lowcode</Link>
         </li>
