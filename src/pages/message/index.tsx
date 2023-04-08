@@ -13,9 +13,10 @@ import { useEffect, useState } from 'react'
 
 // 了解响应式
 // https://mobx.js.org/understanding-reactivity.html
+// MobX 跟踪属性的访问，而不是属性的值本身
 // 这里有许多示例，明确指出了使用误区等
 // 总结: MobX reacts to any existing observable property that is read during the execution of a tracked function.
-// mobx 对在跟踪函数执行期间读取的任何现有可观察属性作出反应。
+// Mobx 会对跟踪函数执行时读取的任何 存在的 可观测的 属性 做出响应。
 
 class Message {
   title

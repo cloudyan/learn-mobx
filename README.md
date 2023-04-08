@@ -43,3 +43,10 @@ pnpm i mobx mobx-react
   - [computeds](https://mobx.js.org/computeds.html)
   - [reactions](https://mobx.js.org/reactions.html)
 - [核心 API](https://mobx.js.org/api.html)
+
+中文文档
+
+- 官方 https://zh.mobx.js.org/README.html
+- https://www.mobxjs.com/
+- https://cn.mobx.js.org/
+- https://suprise.github.io/mobx-cn/
